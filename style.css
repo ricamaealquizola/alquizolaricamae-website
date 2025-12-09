@@ -71,6 +71,20 @@ section {
     color: #ff4da6;
 }
 
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffb3d9;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
 #contact {
     background: #ffe6f2;
 }
